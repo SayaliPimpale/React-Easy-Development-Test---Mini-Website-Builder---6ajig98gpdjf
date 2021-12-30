@@ -17,7 +17,7 @@ function App() {
        progress:</label>
        <progress max="100">32%</progress>
      </form>
-     <div className='result'>{data}</div>
+     <div className='result' style={{backgroundcolor: "red"}}>{data}</div>
     </div>
   );
 }
